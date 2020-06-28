@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/pratiqpd/public_html/githubcpaneldemo
-    - /bin/cp  /dist -R *.* $DEPLOYPATH
+    - /bin/cp dist -R *.* $DEPLOYPATH
